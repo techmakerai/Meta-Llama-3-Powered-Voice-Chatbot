@@ -18,7 +18,7 @@ Before you can run this code on your computer, you will need to install the foll
 
 ```console
 pip install ollama
-pip install speechrecognition gtts pygame
+pip install speechrecognition gtts pyaudio pygame
 ```
 
 If you have Python 3.12 or newer, also install the "setuptools" package,       
