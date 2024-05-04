@@ -5,6 +5,14 @@ This repository includes a Python program that interacts with the Meta Llama 3 m
 
 Please watch this YouTube video tutorial to learn more about this code:    
   
+At first, you will need to install and pull the Meta Llama 3 model. 
+
+```console
+ollama serve
+ollama pull llama3
+```
+
+If you would like to use another large language model, you can pull it in the same way and change the code accordingly. 
 
 Before you can run this code on your computer, you will need to install the following packages:
 
