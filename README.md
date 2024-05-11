@@ -5,16 +5,21 @@ This repository includes a Python program that interacts with the Meta Llama 3 m
 
 Please watch this YouTube video tutorial to learn more about this code:    
   
-At first, you will need to install and pull the Meta Llama 3 model. 
+At first, you will need to download and install Ollama from the official website at https://ollama.com. Then, download the Meta Llama 3 model with this command,  
+
+```console
+ollama pull llama3
+```
+
+Once that is done, we can start Ollama and use the Llamma 3 model in Python code, 
 
 ```console
 ollama serve
-ollama pull llama3
 ```
 
 If you would like to use another large language model, you can pull it in the same way and change the code accordingly. 
 
-Before you can run this code on your computer, you will need to install the following packages:
+Before you can run this code on your computer, you will need to install the following Python packages:
 
 ```console
 pip install ollama
