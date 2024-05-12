@@ -1,11 +1,16 @@
 # Meta Llama-3-Powered Voice Chatbot
 A voice chatbot built with Meta Llama 3 and Ollama Python Library
 
-This repository includes a Python program that interacts with the Meta Llama 3 model via Ollama Python Library to obtain a response for any request from a user and then convert the text response to an audio response. This version has been tested on Windows 11.
+This repository includes a Python program that interacts with the Meta Llama 3 model via the Ollama Python Library to obtain a response for any request from a user and then convert the text response to an audio response. This version has been tested on Windows 11.
 
 Please watch this YouTube video tutorial to learn more about this code:      
 https://youtu.be/X8rpOSKDg6I
- 
+
+Here is a list of supported graphic cards by Ollama: 
+https://github.com/ollama/ollama/blob/main/docs/gpu.md  
+
+Make sure your GPU's compute capability is 5 or higher. For a 7B large language model, it is recommended to use a GPU with 8Gb of VRAM. 
+
 At first, you will need to download and install Ollama from the official website at https://ollama.com. Then, download the Meta Llama 3 model with this command,  
 
 ```console
