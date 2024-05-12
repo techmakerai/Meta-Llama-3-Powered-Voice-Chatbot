@@ -1,7 +1,7 @@
 # Meta Llama-3-Powered Voice Chatbot
 A voice chatbot built with Meta Llama 3 and Ollama Python Library
 
-This repository includes a Python program that calls the Meta Llama 3 model via the Ollama Python Library to obtain a response for questions from a user, and then it will convert the text response to an audio response. This version has been tested on Windows 11.
+This repository includes a Python program that calls the Meta Llama 3 model via the Ollama Python Library to obtain a response for questions from a user. Then, it will convert the text response to an audio response. This version has been tested on Windows 11.
 
 Please watch this YouTube video tutorial to learn more about this code:      
 https://youtu.be/X8rpOSKDg6I
