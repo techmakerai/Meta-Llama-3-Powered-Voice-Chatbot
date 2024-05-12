@@ -180,12 +180,15 @@ def main():
                     # This word can be chagned by the user. 
                     if "jack" in text.lower():
                         request = text.lower().split("jack")[1]
+                       
                         
                         sleeping = False
                         # AI is awake now, 
                         # start a new conversation 
                         append2log(f"_"*40)                    
-                        today = str(date.today())                         
+                        today = str(date.today()) 
+                        messages = [] 
+                     
                                                
                         # if the user's question is none or too short, skip 
                         if len(request) < 2:
