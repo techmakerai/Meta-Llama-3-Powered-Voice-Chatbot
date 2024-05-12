@@ -16,7 +16,7 @@ At first, you will need to download and install Ollama from the official website
 ```console
 ollama pull llama3
 ```
-It will take some time to finish downloading depending on your network speed. Once that is done, we can start Ollama and use the Llamma 3 model in Python code, 
+It will take some time to finish downloading depending on your network speed. Once that is done, we can start Ollama with the following command and use the Llamma 3 model in Python code, 
 
 ```console
 ollama serve
