@@ -61,6 +61,15 @@ def chatfun(request, text_queue, llm_finished):
             continue
         
         time.sleep(0.2)
+     
+    if len(shortstring) > 0: 
+        print(shortstring, end='', flush=True) 
+        shortstring = shortstring.replace("*", "")
+        text_queue.put(shortstring)                          
+
+        numtext += 1 
+            
+        reply = "".join([reply, shortstring])
         
     messages.append({'role': 'assistant', 'content': reply})
     append2log(f"{reply}") 
