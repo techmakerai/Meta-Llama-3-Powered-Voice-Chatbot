@@ -45,7 +45,7 @@ def chatfun(request, text_queue, llm_finished):
 
         shortstring = "".join([shortstring, ctext])
  
-        if len(shortstring) > 40:
+        if len(shortstring) > 36:
              
             print(shortstring, end='', flush=True) 
 
